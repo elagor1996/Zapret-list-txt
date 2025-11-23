@@ -6,7 +6,7 @@ BASE_DIR="/opt/zapret/ipset"
 mkdir -p "$BASE_DIR"
 
 # Список файлов и их URL на GitHub
-FILES="cust1.txt cust2.txt zapret-hosts-user.txt zapret-hosts-google.txt zapret-ip-user.txt"
+FILES="cust1.txt"
 BASE_URL="https://raw.githubusercontent.com/elagor1996/Zapret-list-txt/main"
 
 for FILE in $FILES; do
