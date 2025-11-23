@@ -1,1 +1,14 @@
+# Приоритетные домены для Discord / Instagram
+discord.com
+discordapp.com
+discordcdn.com
+discord.gg
+stable.dl2.discordapp.net
+instagram.com
+cdninstagram.com
+instagramm.com
+instagram-brand.com
+instagram-engineering.com
+instagram-help.com
+instagram-press.com
 
