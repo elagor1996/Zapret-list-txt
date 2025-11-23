@@ -1,13 +1,21 @@
+# YouTube + Google core
+google.com
+www.google.com
+gstatic.com
+
+clients1.google.com
+clients2.google.com
+clients3.google.com
+clients4.google.com
+clients6.google.com
+
 youtube.com
 youtu.be
-ytimg.com
 googlevideo.com
+ytimg.com
 ggpht.com
+youtubei.googleapis.com
+yt-video-upload.l.google.com
 youtube-nocookie.com
 youtube-ui.l.google.com
 youtubeembeddedplayer.googleapis.com
-yt-video-upload.l.google.com
-youtubei.googleapis.com
-cloudflare-dns.com
-cloudflare.com
-cloudflare.net
