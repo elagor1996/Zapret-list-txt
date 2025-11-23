@@ -1,22 +1,22 @@
 #!/bin/sh
+# Скрипт для обновления списков Zapret — форсированная перезапись
 
-# Папка для списков
-LIST_DIR="/opt/zapret/ipset"
+BASE_DIR="/opt/zapret"
 
-# Список файлов и URL-ов для обновления
-FILES="
-cust1.txt https://raw.githubusercontent.com/username/repo/main/cust1.txt
-cust2.txt https://raw.githubusercontent.com/username/repo/main/cust2.txt
-zapret-hosts-google.txt https://raw.githubusercontent.com/username/repo/main/zapret-hosts-google.txt
-zapret-hosts-user.txt https://raw.githubusercontent.com/username/repo/main/zapret-hosts-user.txt
-zapret-ip-user.txt https://raw.githubusercontent.com/username/repo/main/zapret-ip-user.txt
-"
+mkdir -p "$BASE_DIR"
 
-for entry in $FILES; do
-    FILENAME=$(echo $entry | awk '{print $1}')
-    URL=$(echo $entry | awk '{print $2}')
-    echo "Обновляем $FILENAME ..."
-    wget -O "$LIST_DIR/$FILENAME" "$URL"
+# Список файлов и их URL на GitHub
+FILES="cust1.txt cust2.txt zapret-hosts-user.txt zapret-hosts-google.txt zapret-ip-user.txt"
+BASE_URL="https://raw.githubusercontent.com/elagor1996/Zapret-list-txt/main"
+
+for FILE in $FILES; do
+    echo "Обновляем $FILE..."
+    wget -q -O "$BASE_DIR/$FILE" "$BASE_URL/$FILE"
+    if [ $? -eq 0 ]; then
+        echo "$FILE успешно обновлён."
+    else
+        echo "Ошибка при загрузке $FILE."
+    fi
 done
 
-echo "Все файлы обновлены!"
+echo "Все списки обновлены."
