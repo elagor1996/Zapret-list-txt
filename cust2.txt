@@ -1,5 +1,1 @@
-# Этот файл не используется.
-# Основные списки находятся в:
-# zapret-hosts-google.txt
-# zapret-hosts-user.txt
-# cust1.txt
+/opt/zapret/ipset/zapret-hosts-user.txt
