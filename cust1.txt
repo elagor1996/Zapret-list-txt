@@ -1,16 +1,1 @@
-youtube.com
-youtu.be
-youtube-nocookie.com
-youtube-ui.l.google.com
-youtubeembeddedplayer.googleapis.com
-youtubei.googleapis.com
-ytimg.com
-ytimg.l.google.com
-googlevideo.com
-ggpht.com
-jnn-pa.googleapis.com
-stable.dl2.discordapp.net
-wide-youtube.l.google.com
-cloudflare-dns.com
-cloudflare.com
-cloudflare.net
+
