@@ -1,7 +1,7 @@
 #!/bin/sh
-# Скрипт для обновления списков Zapret — форсированная перезапись
+# Скрипт для обновления списков Zapret — форсированная перезапись в /opt/zapret/ipset
 
-BASE_DIR="/opt/zapret"
+BASE_DIR="/opt/zapret/ipset"
 
 mkdir -p "$BASE_DIR"
 
