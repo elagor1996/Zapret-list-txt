@@ -1,8 +1,1 @@
-# Instagram (core domains + CDN)
-instagram.com
-cdninstagram.com
-
-# Facebook CDN for media
-fbcdn.net
-static.xx.fbcdn.net
-scontent.xx.fbcdn.net
+/opt/zapret/ipset/zapret-hosts-google.txt
